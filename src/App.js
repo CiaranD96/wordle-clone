@@ -17,7 +17,7 @@ function App() {
 
   return (
     <div className='App'>
-      <h1>Worlde (Lingo)</h1>
+      <h1>Worlde Clone</h1>
       {solution && (
         <div>
           <Wordle solution={solution} />{' '}

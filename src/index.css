@@ -16,6 +16,7 @@ code {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  height: 100vh;
 }
 /* rows */
 .row {
@@ -101,13 +102,15 @@ code {
   top: 0;
   left: 0;
 }
-.modal div {
-  max-width: 480px;
+.modal .modal-body {
+  max-width: 50%;
+  height: 600px;
   background: #fff;
   padding: 40px;
   border-radius: 10px;
-  margin: 10% auto;
+  margin: 5% auto;
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+  overflow-y: auto;
 }
 .modal .solution {
   font-weight: bold;
@@ -126,6 +129,7 @@ code {
   border: 1px solid #eee;
   border-radius: 5px;
   padding: 15px;
+  font-weight: bold;
 }
 .modal .reset:hover {
   background-color: #333;
