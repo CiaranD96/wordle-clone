@@ -115,7 +115,8 @@ const useWordle = (solution) => {
 
   // reset the game and choose new word
   const resetGame = () => {
-    console.log('reset game');
+    //todo: implement reset without refreshing window
+    window.location.reload();
   };
 
   return {

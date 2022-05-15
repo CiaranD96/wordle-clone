@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react';
 
-export default function Modal({ isCorrect, turn, solution }) {
+export default function Modal({ isCorrect, turn, solution, resetGame }) {
   return (
     <div className='modal'>
       <div>
@@ -22,6 +22,9 @@ export default function Modal({ isCorrect, turn, solution }) {
             <p>Better luck next time</p>
           </Fragment>
         )}
+        <button className='reset' onClick={resetGame}>
+          Reset Game
+        </button>
       </div>
     </div>
   );
